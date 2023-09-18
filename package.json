@@ -1,6 +1,6 @@
 {
   "name": "ssr-webpack4",
-  "version": "4.46.1",
+  "version": "4.46.2",
   "author": "Tobias Koppers @sokra",
   "description": "Packs CommonJs/AMD modules for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand. Support loaders to preprocess files, i.e. json, jsx, es7, css, less, ... and your custom stuff.",
   "license": "MIT",
@@ -116,7 +116,8 @@
     "hot/",
     "web_modules/",
     "schemas/",
-    "SECURITY.md"
+    "SECURITY.md",
+    "types.d.ts"
   ],
   "scripts": {
     "setup": "node ./setup/setup.js",
